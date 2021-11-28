@@ -1,0 +1,110 @@
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+   
+} */
+header{
+    background-color: #012240;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2vh;
+    font-family: 'Heebo', sans-serif;
+    color: #253241;
+    padding: 30px;
+    background-color: #becbda;
+    
+}
+
+#cor{
+
+    color:#f15858;
+}
+
+.icone {
+    
+    
+    width:30px; /* you can use % */
+    height: auto;
+  
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #012240;
+    padding: 12px;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* HOVER E ACTIVE DOS BOTÕES LOGIN E CADASTRO */
+.icone-e-texto:hover {
+    background-color: #012240
+}
+
+button:hover {
+    background-color: #ced8e3
+}
+
+button:active {
+    background-color: #aebed0;
+}
+
+/* CLASSE DO MENU NAVEGAÇÃO */
+
+.row{
+    align-items: center;
+}
+
+
+/* CLASSE DO PARÁGRAFO DE APRESENTAÇÃO */
+.grid-da-section-um {
+    background-color: #3B4F67;
+    display: flex;
+    padding: 0px 0px 0px 80px;
+    margin-top: 0px;    
+    justify-content: center;
+    /* width: 100%; */
+    align-items: center;
+}
+
+p{
+
+    text-align: left;
+}
+
+h5 {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+main {
+   background-color: #073967;
+   color: white;
+   font-family: 'Roboto';
+    
+}
+
+
+
+footer  {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    min-height: 5vh;
+    align-items: center;    
+    justify-content: space-between;
+    grid-column: 1/-1;
+    padding: 10px;
+    background-color: #1D5588;
+    color: white;
+}
+
+
+
