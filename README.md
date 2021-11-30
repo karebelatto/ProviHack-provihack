@@ -12,7 +12,7 @@ Além de parceiros, somos educadores que propagam boas práticas auxiliando empr
 
 # 🛠 Tecnologias
 
- . Front end
+ ### Front end
 -  HTML
 -  CSS 
 -  Bootstrap 
